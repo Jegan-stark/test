@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 4, 2017, 8:11:41 PM
+    Author     : Jeganathan
+*/
+body{
+    border: 7px solid greenyellow;
+    margin: auto;
+    width: 100%;
+    background-image:url("justice.jpg");
+    font-size: larger;
+    font-family: cursive;
+    font-style: inherit;
+    font-synthesis: weight;
+    color : aliceblue;
+}
+
+header{
+    text-align: center;
+    color: darkblue;
+    
+    background:linear-gradient(greenyellow,wheat) ;
+}
+footer{
+    text-align: center;
+    color: darkblue;
+    
+    background:linear-gradient(wheat,greenyellow) ;
+}
+nav{
+    background-color: threedshadow;
+    display: block;
+    column-fill: auto;
+   
+    font-size: 25px;
+}
+a{
+    color: blue;
+    text-decoration: blueviolet;
+    font-size: 28px;
+    font-style: normal; 
+    appearance: menu-item;
+}
+
+a:hover{
+    color: black;
+    background-color: activeborder;
+    padding: 5px;
+}
+a:before{
+    column-rule-style: groove;
+    
+}
+animation{
+    animation-duration: 2s;
+}
+
+.myanimation {
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+
